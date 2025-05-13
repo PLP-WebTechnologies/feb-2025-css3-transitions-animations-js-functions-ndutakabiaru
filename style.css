@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color:white(133, 58, 78);
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #b81919;
+    color: white;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: rgba(218, 1, 1, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2, h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: transform 0.3s ease-in-out; /* CSS Transition */
+}
+
+button:hover {
+    transform: scale(1.1); /* Grows slightly on hover */
+}
+
+#animatedBox {
+    width: 200px;
+    height: 50px;
+    background-color: lightcoral;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.animate {
+    animation: pulse 1s infinite alternate; /* CSS Animation Class */
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+}
+
+#preferenceDisplay {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#savedColor {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: normal;
+}
+
+input[type="color"] {
+    margin: 10px 0;
+}
